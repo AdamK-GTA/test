@@ -10,9 +10,7 @@
 
 <body>
 
-	<ul>
-		
-		@foreach ($tasks as $task)
+	@foreach ($tasks as $task)
 				
 			<li>
 
@@ -22,9 +20,7 @@
 
 			</li>
 
-		@endforeach	
-
-	</ul>
+	@endforeach	
 
 </body>
 
