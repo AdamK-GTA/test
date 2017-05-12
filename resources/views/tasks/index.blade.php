@@ -10,17 +10,21 @@
 
 <body>
 
-	@foreach ($tasks as $task)
-				
-			<li>
+	<ul>
 
-				<a href="/tasks/{{ $task->id }}">
-					{{ $task->body }}
-				</a>
+		@foreach ($tasks as $task)
+					
+				<li>
 
-			</li>
+					<a href="/tasks/{{ $task->id }}">
+						{{ $task->body }}
+					</a>
 
-	@endforeach	
+				</li>
+
+		@endforeach	
+
+	</ul>
 
 </body>
 

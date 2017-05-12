@@ -1,31 +1,9 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-
-    <title>Adam's Test App</title>
-
+	<title>Welcome Page</title>
 </head>
-
 <body>
-
-	<ul>
-		
-		@foreach ($tasks as $task)
-				
-			<li>
-
-				<a href="/tasks/{{ $task->id }}">
-					{{ $task->body }}
-				</a>
-
-			</li>
-
-		@endforeach	
-
-	</ul>
-
+<h1>Hello, World!</h1>
 </body>
-
 </html>
